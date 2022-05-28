@@ -7,9 +7,8 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__FINALPATH__/
-ExecStart=__FINALPATH__/__APP__
-StandardOutput=append:/var/log/__APP__/__APP__.log
-StandardError=inherit
+ExecStart=__FINALPATH__/librarian
+LimitNOFILE=65536
 
 [Install]
 WantedBy=multi-user.target
