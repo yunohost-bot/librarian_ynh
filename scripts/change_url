@@ -106,6 +106,7 @@ fi
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
+domain=$new_domain
 ynh_add_config --template="../conf/config.example.yml" --destination="$final_path/config.yml"
 
 chmod 400 "$final_path/config.yml"
