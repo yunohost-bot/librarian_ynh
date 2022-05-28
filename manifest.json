@@ -3,10 +3,10 @@
     "id": "librarian",
     "packaging_format": 1,
     "description": {
-        "en": "An alternative frontend for LBRY/Odysee",
-        "fr": "An alternative frontend for LBRY/Odysee"
+        "en": "Alternative frontend for LBRY/Odysee",
+        "fr": "Interface alternative pour LBRY/Odysee"
     },
-    "version": "1.0~ynh1",
+    "version": "2022.05.14~ynh1",
     "url": "https://lbry.bcow.xyz/",
     "upstream": {
         "license": "AGPL-3.0-only",
