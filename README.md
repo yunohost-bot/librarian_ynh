@@ -32,7 +32,8 @@ An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
 
 ## Screenshots
 
-![Screenshot of Librarian](./doc/screenshots/example.jpg)
+![Screenshot of Librarian](./doc/screenshots/screeshot.png)
+![Screenshot of Librarian](./doc/screenshots/.DS_Store)
 
 ## Documentation and resources
 
