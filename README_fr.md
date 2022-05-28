@@ -37,7 +37,7 @@ An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://example.com>
+* Site officiel de l'app : <https://lbry.bcow.xyz/>
 * Documentation officielle de l'admin : <https://yunohost.org/packaging_apps>
 * Dépôt de code officiel de l'app : <https://codeberg.org/librarian/librarian>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_librarian>
