@@ -12,7 +12,7 @@
         "license": "AGPL-3.0-only",
         "website": "https://lbry.bcow.xyz/",
         "demo": "https://lbry.bcow.xyz/@RetroMusic:d/1987-Rick-Astley-Never-Gonna-Give-You-Up-1920x1080:f",
-        "admindoc": "https://yunohost.org/packaging_apps",
+        "admindoc": "https://codeberg.org/librarian/librarian/wiki",
         "code": "https://codeberg.org/librarian/librarian"
     },
     "license": "AGPL-3.0-only",
