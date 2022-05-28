@@ -7,10 +7,10 @@
         "fr": "An alternative frontend for LBRY/Odysee"
     },
     "version": "1.0~ynh1",
-    "url": "https://example.com",
+    "url": "https://lbry.bcow.xyz/",
     "upstream": {
         "license": "AGPL-3.0-only",
-        "website": "https://example.com",
+        "website": "https://lbry.bcow.xyz/",
         "demo": "https://lbry.bcow.xyz/@RetroMusic:d/1987-Rick-Astley-Never-Gonna-Give-You-Up-1920x1080:f",
         "admindoc": "https://yunohost.org/packaging_apps",
         "code": "https://codeberg.org/librarian/librarian"
