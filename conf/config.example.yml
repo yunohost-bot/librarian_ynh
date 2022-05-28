@@ -35,9 +35,9 @@ INSTANCE_PRIVACY:
   DATA_COLLECTED_DEVICE: true
   DATA_COLLECTED_DIAGNOSTIC_ONLY: false
   # The country your instance is located. Leave blank if hosting on darknet.
-  INSTANCE_COUNTRY: "United States"
+  INSTANCE_COUNTRY: ""
   # Put the name of your hosting provider. If hosting from home, use the name of your ISP. Leave blank if hosting on darknet.
-  INSTANCE_PROVIDER: "Amazon Web Services"
+  INSTANCE_PROVIDER: ""
   # Cloudflare use is discouraged. You can set this to false if it is not proxied (gray cloud icon)
   INSTANCE_CLOUDFLARE: false
   # Optional: Explain your usage of data (if collected) and how it is stored.
