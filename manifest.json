@@ -3,8 +3,8 @@
     "id": "librarian",
     "packaging_format": 1,
     "description": {
-        "en": "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)",
-        "fr": "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+        "en": "An alternative frontend for LBRY/Odysee",
+        "fr": "An alternative frontend for LBRY/Odysee"
     },
     "version": "1.0~ynh1",
     "url": "https://example.com",
@@ -13,13 +13,12 @@
         "website": "https://example.com",
         "demo": "https://lbry.bcow.xyz/@RetroMusic:d/1987-Rick-Astley-Never-Gonna-Give-You-Up-1920x1080:f",
         "admindoc": "https://yunohost.org/packaging_apps",
-        "userdoc": "https://yunohost.org/apps",
         "code": "https://codeberg.org/librarian/librarian"
     },
     "license": "free",
     "maintainer": {
-        "name": "John doe",
-        "email": "john.doe@example.com"
+        "name": "",
+        "email": ""
     },
     "requirements": {
         "yunohost": ">= 4.3.0"
