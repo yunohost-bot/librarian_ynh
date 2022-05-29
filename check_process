@@ -3,6 +3,8 @@
 		domain="domain.tld"
 		path="/"
 		is_public=1
+		instance_country=France
+		instance_provider=OVH
 	; Checks
 		pkg_linter=1
 		setup_sub_dir=0

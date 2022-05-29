@@ -29,6 +29,8 @@ ynh_script_progression --message="Loading installation settings..." --weight=1
 # Needed for helper "ynh_add_nginx_config"
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
 port=$(ynh_app_setting_get --app=$app --key=port)
+instance_country=$(ynh_app_setting_get --app=$app --key=instance_country)
+instance_provider=$(ynh_app_setting_get --app=$app --key=instance_provider)
 
 #=================================================
 # BACKUP BEFORE CHANGE URL THEN ACTIVE TRAP
