@@ -28,6 +28,7 @@ An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
 
 **Shipped version:** 2022.05.14~ynh1
 
+
 **Demo:** https://lbry.bcow.xyz/@RetroMusic:d/1987-Rick-Astley-Never-Gonna-Give-You-Up-1920x1080:f
 
 ## Screenshots
