@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Librarian for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/librarian.svg)](https://dash.yunohost.org/appci/app/librarian) ![Working status](https://ci-apps.yunohost.org/ci/badges/librarian.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/librarian.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/librarian.svg)](https://dash.yunohost.org/appci/app/librarian) ![Working status](https://ci-apps.yunohost.org/ci/badges/librarian.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/librarian.maintain.svg)
+
 [![Install Librarian with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=librarian)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -27,7 +28,6 @@ An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
 
 
 **Shipped version:** 2022.05.14~ynh1
-
 
 **Demo:** https://lbry.bcow.xyz/@RetroMusic:d/1987-Rick-Astley-Never-Gonna-Give-You-Up-1920x1080:f
 

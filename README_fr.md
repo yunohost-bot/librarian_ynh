@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # Librarian pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/librarian.svg)](https://dash.yunohost.org/appci/app/librarian) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/librarian.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/librarian.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/librarian.svg)](https://dash.yunohost.org/appci/app/librarian) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/librarian.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/librarian.maintain.svg)
+
 [![Installer Librarian avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=librarian)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Librarian rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Librarian rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
 
@@ -26,20 +27,19 @@ An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
 - No crypto garbage
 
 
-**Version incluse :** 2022.05.14~ynh1
-
+**Version incluse :** 2022.05.14~ynh1
 
 **Démo :** https://lbry.bcow.xyz/@RetroMusic:d/1987-Rick-Astley-Never-Gonna-Give-You-Up-1920x1080:f
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Librarian](./doc/screenshots/screeshot.png)
+![Capture d’écran de Librarian](./doc/screenshots/screeshot.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://lbry.bcow.xyz/>
-* Documentation officielle de l'admin : <https://codeberg.org/librarian/librarian/wiki>
-* Dépôt de code officiel de l'app : <https://codeberg.org/librarian/librarian>
+* Site officiel de l’app : <https://lbry.bcow.xyz/>
+* Documentation officielle de l’admin : <https://codeberg.org/librarian/librarian/wiki>
+* Dépôt de code officiel de l’app : <https://codeberg.org/librarian/librarian>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_librarian>
 * Signaler un bug : <https://github.com/YunoHost-Apps/librarian_ynh/issues>
 
@@ -55,4 +55,4 @@ ou
 sudo yunohost app upgrade librarian -u https://github.com/YunoHost-Apps/librarian_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
