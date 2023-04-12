@@ -1,0 +1,14 @@
+test_format = 1.0
+
+[default]
+
+    # -------------------------------
+    # Default args to use for install
+    # -------------------------------
+    
+    args.instance_country = "France"
+    args.instance_provider = "OVH"
+
+    # -------------------------------
+    # Commits to test upgrade from
+    # -------------------------------

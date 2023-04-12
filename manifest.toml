@@ -56,4 +56,3 @@ ram.runtime = "50M"
     api.allowed="visitors"
     api.show_tile = false
     api.protected = true
-
