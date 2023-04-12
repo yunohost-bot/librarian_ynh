@@ -1,6 +1,0 @@
-SOURCE_URL=https://github.com/YunoHost-Apps/librarian_ynh/releases/download/v2022.05.14/librarian_2022-05-14_arm64.tar.gz
-SOURCE_SUM=02a666cfc65302fb5807aa214e9806e79077ed2b09dfe9c86d8a0595e3f5560f
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_EXTRACT=true
