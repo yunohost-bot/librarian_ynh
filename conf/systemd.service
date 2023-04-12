@@ -1,5 +1,5 @@
 [Unit]
-Description=Librarian: An alternative frontend for LBRY/Odysee.
+Description=Librarian: alternative frontend for LBRY/Odysee.
 After=network.target
 
 [Service]
