@@ -1,13 +1,13 @@
 [Unit]
-Description=Librarian: An alternative frontend for LBRY/Odysee.
+Description=Librarian: alternative frontend for LBRY/Odysee.
 After=network.target
 
 [Service]
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=__FINALPATH__/
-ExecStart=__FINALPATH__/librarian
+WorkingDirectory=__INSTALL_DIR__/
+ExecStart=__INSTALL_DIR__/librarian
 LimitNOFILE=65536
 
 [Install]

@@ -1,0 +1,58 @@
+packaging_format = 2
+
+id = "librarian"
+name = "Librarian"
+description.en = "Alternative frontend for LBRY/Odysee"
+description.fr = "Interface alternative pour LBRY/Odysee"
+
+version = "2022.05.14~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "AGPL-3.0-only"
+website = "https://lbry.bcow.xyz/"
+demo = "https://lbry.bcow.xyz/@RetroMusic:d/1987-Rick-Astley-Never-Gonna-Give-You-Up-1920x1080:f"
+admindoc = "https://codeberg.org/librarian/librarian/wiki"
+code = "https://codeberg.org/librarian/librarian"
+
+[integration]
+yunohost = ">= 11.1.17"
+architectures = ["amd64", "armhf", "arm64"]
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+    full_domain = true
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        arm64.url = "https://github.com/YunoHost-Apps/librarian_ynh/releases/download/v2022.05.14/librarian_2022-05-14_arm64.tar.gz"
+        arm64.sha256 = "02a666cfc65302fb5807aa214e9806e79077ed2b09dfe9c86d8a0595e3f5560f"
+        amd64.url = "https://github.com/YunoHost-Apps/librarian_ynh/releases/download/v2022.05.14/librarian_2022-05-14_amd64.tar.gz"
+        amd64.sha256 = "c50f1dd4061d9c66a79915d17be5c743a6b74a53ee0e3a87ba9036d56de2ce4d"
+        armhf.url = "https://github.com/YunoHost-Apps/librarian_ynh/releases/download/v2022.05.14/librarian_2022-05-14_armhf.tar.gz"
+        armhf.sha256 = "d7a2657677382c8906d1758431a743b1b19d9f821674ece05a8fd0cc35fccb54"
+
+    [resources.ports]
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+    api.url="/api"
+    api.allowed="visitors"
+    api.show_tile = false
+    api.protected = true
