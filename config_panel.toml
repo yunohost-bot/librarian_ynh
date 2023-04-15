@@ -2,7 +2,7 @@ version = "1.0"
 
 [main]
 name = "Librarian configuration"
-services = ["__APP__"]
+services = ["__ID__"]
 
     [main.config]
     name = "Configuration Options"
@@ -11,10 +11,10 @@ services = ["__APP__"]
         ask = "Instance country location"
         type = "string"
         help = "The country your instance is located. Leave blank if hosting on darknet."
-        bind = "INSTANCE_COUNTRY:__FINALPATH__/config.yml"
+        bind = "INSTANCE_COUNTRY:__INSTALL_DIR__/config.yml"
 
         [main.config.instance_provider]
         ask = "Name of your hosting provider"
         type = "string"
         help = "Put the name of your hosting provider. If hosting from home, use the name of your ISP. Leave blank if hosting on darknet."
-        bind = "INSTANCE_PROVIDER:__FINALPATH__/config.yml"
+        bind = "INSTANCE_PROVIDER:__INSTALL_DIR__/config.yml"
