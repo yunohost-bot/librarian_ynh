@@ -5,7 +5,7 @@ name = "Librarian"
 description.en = "Alternative frontend for LBRY/Odysee"
 description.fr = "Interface alternative pour LBRY/Odysee"
 
-version = "2022.05.14~ynh1"
+version = "2022.05.14~ynh2"
 
 maintainers = ["eric_G"]
 
