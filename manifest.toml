@@ -17,7 +17,7 @@ admindoc = "https://codeberg.org/librarian/librarian/wiki"
 code = "https://codeberg.org/librarian/librarian"
 
 [integration]
-yunohost = ">= 11.1.17"
+yunohost = ">= 11.2"
 architectures = ["amd64", "armhf", "arm64"]
 multi_instance = true
 ldap = false
@@ -29,7 +29,6 @@ ram.runtime = "50M"
 [install]
     [install.domain]
     type = "domain"
-    full_domain = true
 
     [install.init_main_permission]
     type = "group"
