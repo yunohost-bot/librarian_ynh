@@ -7,7 +7,7 @@ description.fr = "Interface alternative pour LBRY/Odysee"
 
 version = "2022.05.14~ynh2"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "AGPL-3.0-only"
@@ -15,6 +15,10 @@ website = "https://lbry.bcow.xyz/"
 demo = "https://lbry.bcow.xyz/@RetroMusic:d/1987-Rick-Astley-Never-Gonna-Give-You-Up-1920x1080:f"
 admindoc = "https://codeberg.org/librarian/librarian/wiki"
 code = "https://codeberg.org/librarian/librarian"
+
+[antifeatures]
+deprecated-software.en = "Librarian has been discontinued. See: https://bcow.xyz/posts/archiving-librarian/"
+deprecated-software.fr = "Librarian a été abandonné. Voir : https://bcow.xyz/posts/archiving-librarian/"
 
 [integration]
 yunohost = ">= 11.2"
@@ -42,6 +46,7 @@ ram.runtime = "50M"
         amd64.sha256 = "c50f1dd4061d9c66a79915d17be5c743a6b74a53ee0e3a87ba9036d56de2ce4d"
         armhf.url = "https://github.com/YunoHost-Apps/librarian_ynh/releases/download/v2022.05.14/librarian_2022-05-14_armhf.tar.gz"
         armhf.sha256 = "d7a2657677382c8906d1758431a743b1b19d9f821674ece05a8fd0cc35fccb54"
+        autoupdate.strategy = ""
 
     [resources.ports]
 
