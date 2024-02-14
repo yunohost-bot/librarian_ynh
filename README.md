@@ -40,7 +40,7 @@ An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
 * Official app website: <https://lbry.bcow.xyz/>
 * Official admin documentation: <https://codeberg.org/librarian/librarian/wiki>
 * Upstream app code repository: <https://codeberg.org/librarian/librarian>
-* YunoHost documentation for this app: <https://yunohost.org/app_librarian>
+* YunoHost Store: <https://apps.yunohost.org/app/librarian>
 * Report a bug: <https://github.com/YunoHost-Apps/librarian_ynh/issues>
 
 ## Developer info
